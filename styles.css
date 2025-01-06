@@ -1,0 +1,211 @@
+General Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero span{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+  }
+  /* Header Section */
+  .header {
+    background: #ffffff;
+    padding: 20px 0;
+    color: #64a1fc;
+  }
+  
+  .header .logo h1 {
+    position: relative;
+    right: 250px;
+    top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+    color: #64a1fc;
+  }
+  
+  .header .logo span {
+    color: #ffcc00;
+    
+  }
+  
+  .header .logo a{
+    text-decoration: none;
+  }
+  .navbar ul {
+    position: relative;
+    top: -25px;
+    left: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #64a1fc;
+    font-weight: bold;
+  }
+  .headerIcons{
+    position: relative;
+    display: flex;
+    gap: 15px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+ .headerIcons:hover {
+    background-color: #f1f1f1;
+  }
+
+  i{
+    position: relative;
+    top: 5px;
+  }
+  
+  .login-btn {
+    background: #ffcc00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #0078ff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('./images/hero.jpg') no-repeat center center/cover;
+    color: #64a1fc;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 span {
+    color: #fc3f05;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .bx-search{
+    position: relative;
+    left: 280px;
+    top: 18px;
+    color: #030303;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  
+  .bx-map{
+    position: relative;
+    left: -60px;
+    top: 18px;
+    color: #030303;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  .search-input {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-family: "Poppins", serif;
+  }
+  
+  .searchBtn {
+    background: #ffcc00;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0078ff;
+  }
+  
+  .searchBtn:hover {
+    background: #ffd633;
+  }
+  
+  /* Features Section */
+  .features {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .feature-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1%;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card .icon {
+    font-size: 40px;
+    color: #0078ff;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #f1f1f1;
+    color: #64a1fc;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #fc3f05;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer span{
+    font-family: "Pacifico", cursive;
+  }
